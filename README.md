@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 반응형 타이머 - 스톱워치 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 프로젝트는 React와 styled-components를 사용하여 개발된 반응형 스톱워치 애플리케이션입니다. 이 스톱워치는 라운드 시간 측정, 시작/일시정지 기능, 초기화 기능 등을 포함하며, 다양한 화면 크기에 맞춰 깔끔한 사용자 인터페이스를 제공합니다.
 
-## Available Scripts
+## 주요 기능
 
-In the project directory, you can run:
+- **시작/일시정지 버튼**: 타이머를 시작하고 일시정지할 수 있으며, 버튼이 상호 전환됩니다.
+- **랩/초기화 버튼**: 타이머가 작동 중일 때는 초기화 버튼이 랩(Lap) 버튼으로 변경되어 기록을 남길 수 있습니다. 타이머가 일시정지되면 다시 초기화 버튼으로 전환됩니다.
+- **랩 기록**: 사용자가 랩을 기록할 때마다 기록된 시간이 화면에 표시됩니다.
+- **반응형 디자인**: 모바일, 태블릿, 데스크톱 등 다양한 디바이스에서 잘 동작하는 레이아웃입니다.
+- **고정된 타이머 및 버튼**: 시간이 기록되어도 타이머와 버튼 영역은 고정되어 있어 사용이 편리합니다.
 
-### `npm start`
+## 사용된 기술
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: 사용자 인터페이스를 구성하는 JavaScript 라이브러리.
+- **styled-components**: CSS를 JavaScript 코드 안에서 직접 작성할 수 있는 스타일링 도구.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 프로젝트 실행 방법
 
-### `npm test`
+1. 레포지토리를 클론합니다:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/hyeonnjin/timer.git
+   ```
 
-### `npm run build`
+2. 프로젝트 디렉토리로 이동합니다:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd timer
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. 패키지를 설치합니다:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+4. 애플리케이션을 실행합니다:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. 브라우저에서 [http://localhost:3000](http://localhost:3000)로 접속하여 타이머 애플리케이션을 확인할 수 있습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 배포된 페이지
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[https://hyeonnjin.github.io/timer/](https://hyeonnjin.github.io/timer/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+위 링크를 통해 배포된 스톱워치를 직접 사용해보세요!
