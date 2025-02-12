@@ -45,6 +45,6 @@
 
 ## 배포된 페이지
 
-[https://hyeonnjin.github.io/timer/](https://hyeonnjin.github.io/timer/)
+[https://devandfugue.github.io/timer/](https://devandfugue.github.io/timer/)
 
 위 링크를 통해 배포된 스톱워치를 직접 사용해보세요!
